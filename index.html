@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="w-full md:w-full lg:w-full 2xl:[1900px] 2xl:mx-auto  " >
+            <!-- heder serch mobile -->
+    <div class="container max-w-full h-[40px] py-[10px] lg:hidden md:max-w-full flex justify-between items-center bg-[#f5f5f5] " >
+
+      <div class=" flex justify-between p-[.4rem] items-center w-[767px] md:w-full">
+        <div class="text-[1.5rem] absolute">
+          <i class="fa fa-map-marker text-[#a6a6a6]"></i>
+        </div>
+
+        <span class="text-[1.2rem]  mx-[22px] flex items-center flex-row "> تهران    <span class="gap-y-8">|</span></span>
+        <input
+          class="outline-none font-bold text-[1.2rem]  pr-[13px] w-full h-[30px] flex items-center bg-[#f5f5f5] md:w-full"
+          dir="rtl"
+          type="text"
+          placeholder="جستجو در همه اگهی ها "
+          />
+            <i class="fa fa-search text-[#a6a6a6]"></i>
+      </div>
+    </div>
+  </div>
+  <!-- hedwr full -->
+    <div dir="rtl" class="container2 hidden md:hidden  lg:w-full lg:flex lg:flex-row lg: p-[20px] lg:border-b-[1px] justify-between 2xl:max-w-[1940px] 2xl:mx-auto">
+      <div class="flex  lg:w-[650px] xl:w-[900px] ">
+        <img class="w-[30px] lg:w-[45px]" src="/image/Vector-10.svg" alt="">
+        <span class="flex items-center text-[12px] lg: mr-[20px] pr-[1rem] lg:text-[25px] cursor-pointer hover:text-[#111] text-[#a6a6a6]">   |      <img class="px-[10px] w-10 mt-[8px]"  src="/image/location.svg" alt="location">
+          تهران <p class="pr-[1rem] text-[#a6a6a6]"></p></span>
+          <button class=" items-center mt-[6px] text-[22px] flex flex-row-reverse mr-[20px] w-[250px] justify-center text-[#a6a6a6] ">دسته ها <img class="flex items-center w-[18px]  mt-[6px]" src="/image/arrow.svg" alt=""></button>
+          <div class="w-full">
+            <input  type="search" placeholder="جستجو در همه اگهی ها" class="bg-[#f5f5f5] outline-none  flex items-center text-[22px] xl:mr-[rem] h-[40px] mt-[8px] xl:w-full lg:w-full pr-[2rem]">
+            <img class="absolute top-0 w-[20px] pt-[40px]" src="/image/search.svg" alt="">
+          </div>
+        </div>
+        <div  class="flex  justify-between items-center w-[600px]">
+        <div class="flex items-center pr-[1rem]" >
+          <span class="text-[#a6a6a6] text-[22px]  xl:w-fit flex ">
+            <img class="mx-[8px]" src="/image/Vector(16).svg" alt="">دیوار من</span>
+        </div>
+        <div class="flex items-center pr-[1rem]">
+          <span class="text-[#a6a6a6] text-[22px]  flex">
+            <img class="mx-[8px] mt-[6px]" src="/image/Vector-13.svg" alt="">چت</span>
+        </div>
+        <span class="text-[#a6a6a6] text-[22px] flex items-center  pr-[1rem]">پشتیبانی</span>
+        <button class="bg-[#a62626] h-[40px] w-[110px] flex justify-center items-center mt-[10px] mr-[20px] rounded-[4px] text-[#ffff] text-[22px] ">ثبت آگهی </button>
+        </div>
+    </div>
+   
+    <main class=" lg:flex lg:flex-row-reverse xl:max-w-[1940px] 2xl:mx-auto">
+      <!-- side bar left -->
+      <div  dir="rtl" class="asidebar hidden md:hidden lg:flex lg:flex-col items-start w-1/5  ">
+        <div class="flex flex-col items-start w-[270px] h-hh lg:justify-around">
+          <span>دسته ها</span>
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">املاک <img  class="pl-[10px] " src="/image/Vector.svg " alt=""> </span>
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">وسایل نقلیه<img class="pl-[10px]"  src="/image/Vector-1.svg" alt=""></span>
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">کالایه دیجیتال <img class="pl-[10px]" src="/image/Vector-2.svg" alt=""></span>
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">خانه و اشپزخانه<img class="pl-[10px]" src="/image/Vector-3.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">خدمات<img class="pl-[10px]" src="/image/Vector-4.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">وسایل شخصی<img class="pl-[10px]" src="/image/Vector-5.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer"> سرگرمی و فراغت<img class="pl-[10px]" src="/image/Vector-6.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">اجتماعی<img class="pl-[10px]" src="/image/Vector-7.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">تجهیزات و صنعتی<img class="pl-[10px]" src="/image/Vector-8.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">استخدام و کاریابی<img class="pl-[10px]" src="/image/Vector-9.svg" alt=""></span>   
+<span  class="flex  flex-row-reverse text-[22px] text-[#707070] hover:text-[#000] cursor-pointer">رزومه کارجویان<img class="pl-[10px]" src="/image/work.svg" alt=""></span>  
+<span class="w-full border-b-[1px]"></span> 
+
+<!-- select -->
+<select data-te-select-init disabled  class="w-full border-b-[1px] outline-none text-[26px] mb-[10px]">
+  <option value="1">محل</option>
+
+
+</select>
+<select data-te-select-init disabled class="w-full border-b-[1px] outline-none text-[26px] mb-[10px]">
+  <option value="1">قیمت</option>
+
+</select>
+<select data-te-select-init disabled class="w-full border-b-[1px] outline-none text-[26px] ">
+  <option value="1">وضعیت اگهی</option>
+</select>
+      </div>
+      <!-- information -->
+    <div class=" h-[10px] " >
+      <div class="w-[320px] h-[90px] flex flex-wrap">
+      <span class="p-[8px] text-[16px] text-[gray] hover:text-[#111] cursor-pointer">درباره دیوار</span>
+      <span class="p-[8px] text-[16px] text-[gray] hover:text-[#111] cursor-pointer"> دریافت برنامه</span>
+      <span class="p-[8px] text-[16px] text-[gray] hover:text-[#111] cursor-pointer"> بلاگ دبوار</span>
+      <span class="p-[8px] text-[16px] text-[gray] hover:text-[#111] cursor-pointer">کسب و کار ها</span>
+      <span class="p-[8px] text-[16px] text-[gray] hover:text-[#111] cursor-pointer">پشتیبانی و قوانین</span>
+    </div>
+<!-- img media -->
+      <div class="flex flex-row-reverse p-[10px] items-center w-[280px] justify-evenly">
+        <img class="w-[30px]" src="/image/aparat.svg" alt="">
+        <img class="w-[30px]"  src="/image/linkdin.svg" alt="">
+        <img class="w-[30px]"  src="/image/insta.svg" alt="">
+        <img class="w-[30px]"  src="/image/X.svg" alt="">
+      </div>
+  
+
+    </div>
+  </div>
+  
+    <div class="overflow-y-scroll" >
+      <div
+        class="container border-y-[1px] xl:hidden lg:hidden h-[55px] flex items-center justify-between max-w-[1067px] w-[1400px] shadow-3xl  md:max-w-[1200px] "
+        dir="rtl"
+      >
+      <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem]  mx-[5px]">
+        دسته ها
+      </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فیلتر ها
+        </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فیلتر ها
+        </button> 
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فیلتر ها
+        </button>
+         <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فیلتر ها
+        </button>
+         <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فیلتر ها
+        </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          خودرو سواری
+        </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فروشگاهی
+        </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فروشگاهی
+        </button>
+        <button class="border-[1px] w-[6.5rem] h-[2rem] rounded-[1rem] mx-[5px]">
+          فروشگاهی
+        </button>
+    
+      </div>
+    </div>
+    <div  class="pt-[1rem] pl-[2rem] text-[#6c6c6c] lg:hidden xl:hidden xl: ">
+      <span> دیوار تهران: انواع اگهی ها وخدمات در تهران </span>
+    </div>
+
+    <div class="overflow-y-scroll h-[896px] lg:h-[1300px] md:grid lg:w-full  md:grid-cols-2 lg:grid-cols-3">
+    <div class="p-[21px] justify-center ">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between "
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>      
+          </div>
+      </div>
+    </div>
+     <div class="px-[21px] md:p-[21px] justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="p-[21px] pt-[o] justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>     
+           </div>
+      </div>
+      
+    </div>
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>        </div>
+      </div>
+      
+    </div>
+    <div class="p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>     
+           </div>
+      </div>
+      
+
+
+
+      
+    </div>
+    <div class="p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>
+                </div>
+      </div>
+      
+    </div>
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>       
+         </div>
+      </div>
+      
+    </div>
+    <div class="p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>      
+          </div>
+      </div>
+      
+    </div>
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>     
+           </div>
+      </div>
+      
+    </div>
+    <div class="p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>      
+          </div>
+      </div>
+      
+    </div>
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>     
+           </div>
+      </div>
+      
+    </div>
+    <div class="p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>    
+            </div>
+      </div>
+      
+    </div>
+    <div class="px-[21px] md:p-[21px]  justify-center">
+      <div
+        dir="rtl"
+        class="flex flex-row border-[1px] p-[20px] justify-between"
+      >
+        <div class="flex flex-col justify-around">
+          <span "> ان اس در حد</span>
+          <span class="text-[#6c6c6c]">نو</span>
+          <span class="text-[#6c6c6c]">450.000 تومان</span>
+          <p class="text-[#6c6c6c]"><span class="text-[#ed7272]">فروشگاه </span>تهرانپارس</p>
+        </div>
+        <div class="w-[9rem]">
+          <div class="flex flex-row-reverse ">
+            <img src="/image/AZHP6hZ0.webp" alt=" n s" />
+            <img class="mt-[125px] w-[20px]" src="/image/comment.svg" alt="">
+          </div>      
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="relative">
+
+      <div dir="rtl" class=" h-[3rem] border-t-[1px] bg-[#fff] fixed left-0 right-0 bottom-0  px-[10px] flex  justify-evenly  lg:hidden xl:hidden 2xl:hidden">
+        <div class="flex flex-col items-center  md:flex md:flex-row">
+          <img class="w-[30px]" src="/image/Vector-10.svg" alt="divar">
+          <span class="md:p-[10px] text-[#a62626]">اگهی ها</span>
+        </div>
+        <div class="flex flex-col items-center md:flex md:flex-row">
+          <i class="fa fa-bars text-[#707070]"></i>
+          <span class="md:p-[10px] text-[#707070]">دسته ها</span>
+        </div>
+        <div class="flex flex-col items-center  md:flex md:flex-row">
+          <i class="fa fa-plus text-[#707070]"></i>
+          <span class="md:p-[10px] text-[#707070]">ثبت اگهی</span>
+        </div>
+        <div class="flex flex-col items-center  md:flex md:flex-row">
+          <i class="fa fa-comment text-[#707070]"></i>
+          <span class="md:p-[10px] text-[#707070]">چت</span>
+        </div>
+        <div class="flex flex-col items-center  md:flex md:flex-row ">
+          <i class="fa fa-user text-[#707070]"></i>
+           <span class="md:p-[10px] text-[#707070]">دیوار من</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  </body>
+</html>

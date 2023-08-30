@@ -13,7 +13,7 @@ module.exports = {
     boxShadow: {
       "3xl": " rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;",
     },
-    height: { hh: "calc(100vh - 64px);" },
+    height: { h: "calc(100vh);" },
   },
   plugins: [],
 };
